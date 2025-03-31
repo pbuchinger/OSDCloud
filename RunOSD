@@ -14,7 +14,7 @@ Start-OSDCloud @Params
 #=======================================================================
 #   PostOS: AutopilotOOBE Staging
 #=======================================================================
-f (!(Test-Path "C:\ProgramData\OSDeploy")) {
+if (!(Test-Path "C:\ProgramData\OSDeploy")) {
         New-Item "C:\ProgramData\OSDeploy" -ItemType Directory -Force | Out-Null
     }
 
@@ -77,10 +77,6 @@ $AutopilotOOBEJson | Out-File -FilePath "C:\ProgramData\OSDeploy\OSDeploy.Autopi
 
 #OOBE SCript
 
-
-If (!(Test-Path "C:\ProgramData\OSDeploy")) {
-        New-Item "C:\ProgramData\OSDeploy" -ItemType Directory -Force | Out-Null
-    }
 
 
 
