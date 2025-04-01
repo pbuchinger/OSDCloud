@@ -6,11 +6,15 @@ Start-OSDCloudGUI
 #=======================================================================
 #   PostOS: AutopilotOOBE Staging
 #=======================================================================
+
+
+Write-Host -ForegroundColor Green "Creating directory C:\ProgramData\OSDeploy"
+
 if (!(Test-Path "C:\ProgramData\OSDeploy")) {
         New-Item "C:\ProgramData\OSDeploy" -ItemType Directory -Force | Out-Null
     }
 
-
+Write-Host -ForegroundColor Green "Creating C:\ProgramData\OSDeploy\OSDeploy.AutopilotOOBE.json"
 
 $AutopilotOOBEJson = @'
 {
@@ -72,7 +76,7 @@ $AutopilotOOBEJson | Out-File -FilePath "C:\ProgramData\OSDeploy\OSDeploy.Autopi
 
 
 
-Write-Host -ForegroundColor Green "Create C:\Windows\System32\OOBETasks.CMD"
+Write-Host -ForegroundColor Green "Creating C:\Windows\System32\OOBETasks.CMD"
 $OOBETasksCMD = @'
 PowerShell -NoL -Com Set-ExecutionPolicy RemoteSigned -Force
 Set Path = %PATH%;C:\Program Files\WindowsPowerShell\Scripts
