@@ -23,7 +23,7 @@ $AutopilotOOBEJson = @'
                },
     "GroupTag":  "AT-LNZ-CORP",
     "GroupTagOptions":  [
-                            "AR-VEN-CORP",
+                            				"AR-VEN-CORP",
 							"AT-LNZ-CORP",
 							"AU-LAV-CORP",
 							"BR-ACN-CORP",
@@ -66,7 +66,7 @@ $AutopilotOOBEJson = @'
     "PostAction":  "Quit",
     "Run":  "NetworkingWireless",
     "Docs":  "https://autopilotoobe.osdeploy.com/",
-    "Title":  "OSDeploy Autopilot Registration"
+    "Title":  "Nufarm Autopilot Registration"
 }
 '@
 $AutopilotOOBEJson | Out-File -FilePath "C:\ProgramData\OSDeploy\OSDeploy.AutopilotOOBE.json" -Encoding ascii -Force
