@@ -1,0 +1,51 @@
+{
+    "Assign":  {
+                   "IsPresent":  true
+               },
+    "GroupTag":  "AT-LNZ-CORP",
+    "GroupTagOptions":  [
+                            				"AR-VEN-CORP",
+							"AT-LNZ-CORP",
+							"AU-LAV-CORP",
+							"BR-ACN-CORP",
+							"BR-CWB-CORP",
+							"CN-SHA-CORP",
+							"DE-CGN-CORP",
+							"ES-BAR-CORP",
+							"FR-CDG-CORP",
+							"FR-CDG-CORP",
+							"FR-GAI-CORP",
+							"FR-REM-CORP",
+							"GR-ATH-CORP",
+							"ID-JAK-CORP",
+							"ID-MER-CORP",
+							"ID-REM-CORP",
+							"IT-BLQ-CORP",
+							"JP-TOK-CORP",
+							"KR-SEO-CORP",
+							"MX-QUE-CORP",
+							"MY-POR-CORP",
+							"MY-SET-CORP",
+							"NL-CAP-CORP",
+							"PL-WAR-CORP",
+							"PT-LIS-CORP",
+							"RO-BUH-CORP",
+							"RO-BUH-CORP",
+							"RS-QND-CORP",
+							"TR-IST-CORP",
+							"UA-KBP-CORP",
+							"UK-WYK-CORP",
+							"UK-WYK-LAB",
+							"VN-HOC-CORP"
+                        ],
+    "Hidden":  [
+                   "AddToGroup",
+                   "AssignedComputerName",
+                   "AssignedUser",
+                   "PostAction"
+               ],
+    "PostAction":  "Quit",
+    "Run":  "NetworkingWireless",
+    "Docs":  "https://autopilotoobe.osdeploy.com/",
+    "Title":  "Nufarm Autopilot Registration"
+}
