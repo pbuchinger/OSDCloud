@@ -64,6 +64,7 @@ $AutopilotOOBEJson = @'
 							"US-ALP-CORP",
 							"US-BRE-CORP",
 							"US-CHI-CORP",
+       							"US-CHI-KIOSK",
 							"US-GRE-CORP",
 							"US-MOR-CORP",
 							"US-REM-CORP",
