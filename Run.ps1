@@ -41,6 +41,7 @@ $AutopilotOOBEJson = @'
 							"FR-GAI-LAB",
 							"FR-REM-CORP",
 							"GR-ATH-CORP",
+       							"HU-BUD-CORP",
 							"ID-JAK-CORP",
 							"ID-MER-CORP",
 							"ID-REM-CORP",
